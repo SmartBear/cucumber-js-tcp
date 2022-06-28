@@ -22,7 +22,7 @@ query GetOrderedTests($organizationId: UUID!) {
 }
 `
 
-async function main() {
+export async function main() {
   if (process.env.ONE_REPORT_ORGANIZATION === undefined) {
     throw new Error('ONE_REPORT_ORGANIZATION is not set')
   }

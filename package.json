@@ -1,5 +1,5 @@
 {
-  "name": "cucumber-js-tcp",
+  "name": "@smartbear/cucumber-js-tcp",
   "version": "0.0.1",
   "description": "Plugin for Cucumber.js to run Cucumber with Test Case Prioritization",
   "type": "module",
@@ -15,6 +15,9 @@
       "import": "./dist/esm/src/index.js",
       "require": "./dist/cjs/src/index.js"
     }
+  },
+  "bin": {
+    "cucumber-js-tcp": "bin/cucumber-js-tcp.cjs"
   },
   "scripts": {
     "build:cjs": "tsc --build tsconfig.build-cjs.json && cp package.cjs.json dist/cjs/package.json",
