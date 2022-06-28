@@ -3,7 +3,7 @@ import fs from 'fs'
 import fetch from 'node-fetch'
 import { promisify } from 'util'
 
-import { convertToRerun } from '../convertToRerun'
+import { convertToRerun } from '../convertToRerun.js'
 import { TcpResponse } from '../TcpResponse.js'
 
 const writeFile = promisify(fs.writeFile)
