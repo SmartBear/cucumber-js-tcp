@@ -1,0 +1,23 @@
+{
+  "name": "cucumber-js-tcp",
+  "version": "0.0.1",
+  "description": "Plugin for Cucumber.js to run Cucumber with Test Case Prioritization",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SmartBear/cucumber-js-tcp.git"
+  },
+  "keywords": [
+    "cucumber",
+    "test case prioritization"
+  ],
+  "author": "SmartBear",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SmartBear/cucumber-js-tcp/issues"
+  },
+  "homepage": "https://github.com/SmartBear/cucumber-js-tcp#readme"
+}
