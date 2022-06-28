@@ -17,7 +17,7 @@
     }
   },
   "bin": {
-    "cucumber-js-tcp": "bin/cucumber-js-tcp.cjs"
+    "cucumber-js-tcp": "bin/cucumber-js-tcp.js"
   },
   "scripts": {
     "build:cjs": "tsc --build tsconfig.build-cjs.json && cp package.cjs.json dist/cjs/package.json",
